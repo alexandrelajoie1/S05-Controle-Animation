@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Attaquer",
+                    "type": "Button",
+                    "id": "6b177d2b-2b0b-47fa-949c-af0cf484f0c0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -125,6 +134,17 @@
                     "action": "Promener",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "0bfcefc5-356c-4e45-bf21-0b8ffcd62b6d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attaquer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
